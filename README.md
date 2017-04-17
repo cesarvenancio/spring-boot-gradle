@@ -15,8 +15,8 @@ This is a simple project that was built using *Spring, Gradle and Docker compose
 4. Run *docker-compose* to start the sprint boot service: `docker-compose up`
 5. Allow some seconds until service is running.
 
-## Oauth2 Login (In Progress)
-User : user
-Password -> Check spring boot log "Using default security password"
+## Oauth2 Login 
+Facebook - /loginFacebook
+Github - /loginGithub
 
 ## Elastic Search Examples (Soon)
