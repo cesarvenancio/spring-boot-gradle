@@ -19,12 +19,17 @@ public class HelloController {
     
     @RequestMapping("/facebook")
     public String indexFacebookAccess() {
-        return "Greetings Facebook login!";
+        return "Greetings Facebook!";
+    }
+    
+    @RequestMapping("/unauthenticated")
+    public String unauthenticated() {
+      return "Not authenticated";
     }
     
     @RequestMapping("/github")
     public String indexGithubAccess() {
-        return "Greetings Github login!";
+        return "Greetings Github!";
     }
 
     @Autowired
