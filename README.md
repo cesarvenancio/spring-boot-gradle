@@ -16,7 +16,7 @@ This is a simple project that was built using *Spring, Gradle and Docker compose
 5. Allow some seconds until service is running.
 
 ## Oauth2 Login 
-Facebook - /loginFacebook
-Github - /loginGithub
+* Facebook - /loginFacebook
+* Github - /loginGithub
 
 ## Elastic Search Examples (Soon)
