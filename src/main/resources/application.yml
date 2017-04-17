@@ -1,0 +1,33 @@
+security:
+  oauth2:
+    client:
+      client-id: acme
+      client-secret: acmesecret
+      scope: read,write
+      auto-approve-scopes: '.*'
+
+facebook:
+  client:
+    clientId: 463525803989042
+    clientSecret: 5f82e77c23791958872ffb0565eedc20
+    accessTokenUri: https://graph.facebook.com/oauth/access_token
+    userAuthorizationUri: https://www.facebook.com/dialog/oauth
+    tokenName: oauth_token
+    authenticationScheme: query
+    clientAuthenticationScheme: form
+  resource:
+    userInfoUri: https://graph.facebook.com/me
+    
+github:
+  client:
+    clientId: 5c4a36db4f3833cd2d6b
+    clientSecret: 920cf2dce9166b8c963fe2274c1bb200fc4f6074
+    accessTokenUri: https://github.com/login/oauth/access_token
+    userAuthorizationUri: https://github.com/login/oauth/authorize
+    clientAuthenticationScheme: form
+  resource:
+    userInfoUri: https://api.github.com/user
+    
+logging:
+  level:
+    org.springframework.security: DEBUG
